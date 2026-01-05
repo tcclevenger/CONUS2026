@@ -1,0 +1,45 @@
+Parameters:
+  --res <integer> [30] 
+  --file <string> ["/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/ne30.20251121.g"] 
+  --out_format <string> ["Netcdf4"] 
+  --alt <bool> [true] 
+=========================================================
+..Generating mesh with resolution [30]
+..Writing mesh to file [/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/ne30.20251121.g] 
+Nodes per element
+..Block 1 (4 nodes): 5400
+..Mesh generator exited successfully
+=========================================================
+Parameters:
+  --in <string> ["/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/ne30.20251121.g"] 
+  --out <string> ["/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/ne30pg2.20251121.g"] 
+  --np <integer> [2] 
+  --uniform <bool> [true] 
+------------------------------------------------------------
+
+..Loading input mesh
+Mesh size: Nodes [5402] Elements [5400]
+..Computing sub-volume boundaries
+..Generating sub-volumes
+..Writing mesh
+Nodes per element
+..Block 1 (4 nodes): 21600
+..Mesh generator exited successfully
+=========================================================
+Parameters:
+  --in <string> ["/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/ne30pg2.20251121.g"] 
+  --out <string> ["/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/ne30pg2_scrip.20251121.nc"] 
+  --out_format <string> ["netcdf4"] 
+------------------------------------------------------------
+
+..Loading input mesh
+Mesh size: Nodes [21602] Elements [21600]
+..Writing mesh
+Nodes per element
+..Block 1 (4 nodes): 21600
+..Done writing
+..Mesh converter exited successfully
+=========================================================
+Grid(src): /global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/ne30pg2_scrip.20251121.nc
+Grid(dst): /global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_grid/2026-incite-conus-1024x2-pg2_scrip.nc
+Job completed successfully.

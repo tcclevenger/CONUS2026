@@ -1,0 +1,37 @@
+
+  Input files and parameter values:
+    [32mmap_file        [0m: /global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_map/map_RRSwISC6to18E3r5_to_2026-incite-conus-1024x2-pg2_traave.20251121.nc
+    [32mlnd_grid        [0m: 2026-incite-conus-1024x2-pg2
+    [32mocn_grid        [0m: RRSwISC6to18E3r5
+    [32mfminval         [0m: 1e-08
+    [32mfmaxval         [0m: 1
+    [32mset_omask       [0m: False
+    [32mfix_pole        [0m: False
+  
+
+  Grid information from map file:
+    [36mdomain_a file        [0m: /global/cfs/cdirs/e3sm/inputdata/ocn/mpas-o/RRSwISC6to18E3r5/ocean.RRSwISC6to18E3r5.nomask.scrip.20240327.nc
+    [36mdomain_b file        [0m: /global/cfs/cdirs/e3sm/whannah/files_grid/2025-scream-conus-1024x2-pg2_scrip.nc
+    [36mocn_grid_file        [0m: /global/cfs/cdirs/e3sm/inputdata/ocn/mpas-o/RRSwISC6to18E3r5/ocean.RRSwISC6to18E3r5.nomask.scrip.20240327.nc
+    [36matm_grid_file        [0m: /global/cfs/cdirs/e3sm/whannah/files_grid/2025-scream-conus-1024x2-pg2_scrip.nc
+    [36mocn grid size   (n_a)[0m: 4062533
+    [36matm grid size   (n_b)[0m: 31633192
+    [36msparse mat size (n_s)[0m: 41961047
+    [36msrc_grid_rank        [0m: 1
+    [36mdst_grid_rank        [0m: 1
+    [36msrc_grid_dims        [0m: [4062533]
+    [36mdst_grid_dims        [0m: [31633192]
+  
+successfully created domain file: [35m/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_domain/domain.ocn.RRSwISC6to18E3r5.20251121.nc[0m
+
+    ------------------------------------------------------------------------------------------------
+    [31mIMPORTANT[0m: note original min/max frac and decide if acceptable
+    lfrac clipped below / above : +1.000000e-08 /  +1.000000
+    original lfrac min/max      : -4.440892e-16 /  +1.000000
+    final    lfrac min/max      : +0.000000e+00 /  +1.000000
+    ------------------------------------------------------------------------------------------------
+  
+successfully created domain file: [35m/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_domain/domain.lnd.2026-incite-conus-1024x2-pg2_RRSwISC6to18E3r5.20251121.nc[0m
+successfully created domain file: [35m/global/cfs/cdirs/e3sm/2026-INCITE-CONUS-RRM/files_domain/domain.ocn.2026-incite-conus-1024x2-pg2_RRSwISC6to18E3r5.20251121.nc[0m
+
+Job completed successfully.
